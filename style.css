@@ -1,0 +1,19 @@
+.custom-hr, .custom-cont{
+    margin-top:-.4ch;
+}
+.black{
+    color: black;
+}
+.custom-vertical{
+    border-left:.1ch solid rgb(168, 166, 166);
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:2.3ch;
+}
+@media only screen and (max-width:425px){
+    .custom-vertical{
+        border-left:none;
+        margin-left:-1ch
+    }
+}
